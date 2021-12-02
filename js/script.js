@@ -29,7 +29,9 @@ li.append(crossOutButton)
 crossOutButton.click(function deleteListItem(){
     li.addClass("delete")
    });
-   
+ //Reording of list items using sortable() method
+$('#list').sortable();
+  
 
 
 }
