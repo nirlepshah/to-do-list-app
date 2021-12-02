@@ -12,4 +12,12 @@ function newItem(){
   } else {
     $('#list').append(li);
   }
+
+  
+// striking out function on doubleclick
+
+li.dblclick(function crossOut(){
+    li.toggleClass("strike");
+  })  
+
 }
