@@ -31,7 +31,4 @@ crossOutButton.click(function deleteListItem(){
    });
  //Reording of list items using sortable() method
 $('#list').sortable();
-  
-
-
-}
+ }
